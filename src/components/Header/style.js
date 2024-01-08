@@ -35,6 +35,7 @@ const StyledHeader = styled.header`
         font-weight: 600;
         color: #fff;
         transition: 0.3s ease-in-out;
+        cursor: pointer;
     }
     #navbar li a:hover {
         color: #17cf97;
