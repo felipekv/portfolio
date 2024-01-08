@@ -1,6 +1,7 @@
 import StyledHeader from "./style";
 import LogoHeader from "../../assets/LogoPortfolio.png";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
     const [navBarIsOpen, setNavBarIsOpen] = useState(false);
@@ -11,16 +12,16 @@ const Header = () => {
                 <div>
                     <ul id="navbar" className={navBarIsOpen ? "active" : ""}>
                         <li>
-                            <a to="/">Início</a>
+                            <Link to="/">Início</Link>
                         </li>
                         <li>
-                            <a to="/">Sobre mim</a>
+                            <Link to="/sobre">Sobre mim</Link>
                         </li>
                         <li>
-                            <a to="/">Projetos</a>
+                            <Link to="/">Projetos</Link>
                         </li>
                         <li>
-                            <a to="/">Contato</a>
+                            <Link to="/">Contato</Link>
                         </li>
                     </ul>
                 </div>
