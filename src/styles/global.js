@@ -45,6 +45,10 @@ export const GlobalStyle = createGlobalStyle`
         text-decoration: none;
     }
 
+    b{
+        font-weight: bold;
+    }
+
     #root{
         width: 100%;
         height: 100%;
