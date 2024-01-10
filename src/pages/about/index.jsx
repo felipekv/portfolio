@@ -50,21 +50,14 @@ const About = () => {
                 <section id="about" className={aboutMeIsOpen ? "active" : "disabled"}>
                     <h3>Sobre mim</h3>
                     <p>
-                        Apaixonado por tecnologia desde criança, sempre tive
-                        interesse na área. Quando resolvi fazer um ensino
-                        superior, fiz por influência de terceiros, e escolhi
-                        cursos que não me agradaram. Até que parei e pensei,
-                        porque não estudar algo que tenho interesse desde jovem?
-                        Então resolvi entrar para faculdade de Ciência da
-                        Computação na UFPel (Universidade Federal de Pelotas),
-                        onde fez aquela paixão de criança pela tecnologia
-                        aumentar ainda mais, hoje estou quase formado. E fora a
-                        faculdade, recentemente fiz um curso de desenvolvimento
-                        Web Fullstack pela Kenzie Academy Brasil, no qual tive
-                        experiências excelentes, tanto desenvolvendo, como até
-                        mesmo sendo chamado para ser Monitor(Peer Coach) de
-                        Frontend, onde pude aperfeiçoar minhas soft e hard
-                        skills.
+                        Apaixonado por tecnologia desde criança, sempre tive interesse na área. Quando decidi cursar o ensino superior, escolhi por influência de terceiros e optei por cursos que não me agradaram. Foi então que parei para refletir: por que não estudar algo que despertava meu interesse desde jovem? Assim, decidi ingressar na faculdade de Ciência da Computação na UFPel (Universidade Federal de Pelotas), onde minha paixão infantil pela tecnologia só cresceu. Atualmente, estou prestes a me formar.
+
+                    </p>
+                    <p>
+                        Além da faculdade, recentemente participei de um curso de Desenvolvimento Web Fullstack pela Kenzie Academy Brasil, no qual tive experiências excelentes. Desenvolver projetos e ser chamado para ser Monitor (Peer Coach) de Frontend foram oportunidades que me permitiram aprimorar tanto minhas habilidades técnicas quanto as interpessoais.
+                    </p>
+                    <p>
+                        Essas experiências contribuíram significativamente para o meu crescimento profissional e pessoal, consolidando minha paixão pela tecnologia. Estou animado para continuar aprendendo e buscando desafios na área de Ciência da Computação.
                     </p>
                 </section>
                 <section
