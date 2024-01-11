@@ -78,6 +78,7 @@ const StyledHome = styled.div`
         &:hover{
             background-color: silver;
             box-shadow: rgb(0, 0, 0) 1px 1px 5px 4px;
+            scale: 1.1;
         }
     }
     @media screen and (max-width: 768px) {

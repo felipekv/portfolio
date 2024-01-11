@@ -40,11 +40,22 @@ const StyledContact = styled.div`
                 display: flex;
                 justify-content: center;
                 justify-items: center;
+
+                &:hover{
+                    scale: 1.1;
+                }
             }
             img {
                 width: 45px;
                 height: 45px;
                 align-self: center;
+            }
+        }
+    }
+    @media screen and (max-width: 768px) {
+        main {
+            ul {
+                gap: 1.5rem;
             }
         }
     }

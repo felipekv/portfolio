@@ -43,6 +43,7 @@ const StyledAbout = styled.div`
         padding-inline: 1rem;
         padding-bottom: 3rem;
         padding-top: 2rem;
+        margin-bottom: 3rem;
 
         h2 {
             text-align: center;
@@ -51,7 +52,7 @@ const StyledAbout = styled.div`
 
     #tecnologies {
         width: 100%;
-        margin-top: 1rem;
+        margin-top: 2rem;
         height: 100%;
         ul {
             width: 100%;
@@ -61,9 +62,7 @@ const StyledAbout = styled.div`
             gap: 2rem;
             justify-content: center;
             align-items: center;
-            margin: 0 auto;
-            overflow-x: auto;
-            height: 550px;
+            margin-bottom: 3rem;
         }
         li {
             width: 100px;
@@ -74,6 +73,10 @@ const StyledAbout = styled.div`
             align-items: center;
             text-align: center;
             gap: 3px;
+
+            &:hover {
+                scale: 1.1;
+            }
         }
         h3 {
             font-family: "Nunito";

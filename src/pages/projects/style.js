@@ -20,9 +20,8 @@ const StyledProject = styled.div`
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            gap: 1rem;
-            overflow-y: auto;
-            height: 500px;
+            gap: 1.5rem;
+            margin-bottom: 3rem;
         }
         li {
             display: flex;
@@ -33,12 +32,17 @@ const StyledProject = styled.div`
             background-color: silver;
             padding: 0.5rem;
             border-radius: 0.25rem;
+
+            &:hover{
+                scale: 1.1;
+            }
         }
         figure {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            gap: 0.5rem;
         }
         figcaption {
             display: flex;
